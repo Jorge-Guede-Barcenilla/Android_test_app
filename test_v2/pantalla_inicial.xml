@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background = "#000000" >
+
+    <TextView
+        android:id="@+id/entrada"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="@string/entrada"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/Pepi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="520dp"
+        android:layout_marginLeft="164dp"
+        android:text="@string/Pepi"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/Reimon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="166dp"
+        android:text="@string/Reimon"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/Manu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="144dp"
+        android:text="@string/Manu"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:typeface="serif" />
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

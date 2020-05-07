@@ -1,0 +1,120 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/android"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.manu.test_v2.MostrarEstadistica">
+
+    <TextView android:text="@string/Tit_estadistica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#9933CC"
+        android:typeface="serif"
+        android:id="@+id/Tit_estadistica"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:text="@string/Num_estadistica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="#9933CC"
+        android:typeface="serif"
+        android:id="@+id/Num_estadistica"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="50dp"
+        android:layout_below="@+id/Tit_estadistica"
+        android:layout_alignLeft="@+id/Tit_estadistica"
+        android:layout_alignStart="@+id/Tit_estadistica"/>
+
+    <TextView
+        android:text="Aciertos:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#9933CC"
+        android:typeface="serif"
+        android:id="@+id/N_aciertos"
+        android:layout_alignBottom="@+id/Num_aciertos"
+        android:layout_marginLeft="100dp"
+        />
+
+    <TextView
+        android:text="num_aciertos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#9933CC"
+        android:typeface="serif"
+        android:id="@+id/Num_aciertos"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="100dp"/>
+
+    <TextView
+        android:text="Fallos:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#9933CC"
+        android:typeface="serif"
+        android:id="@+id/N_fallos"
+        android:layout_alignBottom="@+id/Num_fallos"
+        android:layout_marginLeft="122dp"
+        />
+
+
+
+    <TextView
+        android:text="num_fallos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#9933CC"
+        android:typeface="serif"
+        android:id="@+id/Num_fallos"
+        android:layout_below="@+id/Num_aciertos"
+        android:layout_alignLeft="@+id/Num_aciertos"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_volver_estaditica"
+        android:text="@string/button_volver_estadistica"
+        android:textSize="13sp"
+        android:layout_alignTop="@+id/button_borrar_estadistica"
+        android:onClick="volverAndroidQuiz"
+        android:textColor="#0099CC"
+        android:textStyle="italic"
+        android:typeface="serif"
+        android:layout_marginLeft="162dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_borrar_estadistica"
+        android:text="@string/button_borrar_estadistica"
+        android:textSize="13sp"
+        android:layout_marginBottom="44dp"
+        android:onClick="borrarResutados"
+        android:layout_alignParentBottom="true"
+        android:textColor="#0099CC"
+        android:textStyle="italic"
+        android:typeface="serif"
+        android:layout_marginLeft="44dp"/>
+
+</RelativeLayout>

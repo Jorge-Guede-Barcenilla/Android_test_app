@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="boton_inicio_test">IniciarTest</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_mostrar_test">MostrarTest</string>
+    <string name="app_name">Android Quiz</string>
+    <string name="cuadro_texto1">Inicio</string>
+    <string name="cuadro_texto2">Referencia</string>
+    <string name="cuadro_texto3">Estadísticas</string>
+    <string name="cuadro_texto4">Volver</string>
+    <string name="titulo">Android Quiz</string>
+    <string name="subtitulo">Demuestra tus conocimientos sobre Programación en Android</string>
+    <string name="entrada">Test de Conocimientos de Programación en Android</string>
+    <string name="Reimon">Ramón Conejo Laguna</string>
+    <string name="Manu">Manuel de Vicente García</string>
+    <string name="Pepi">Jorge Guede Barcenilla</string>
+    <string name="title_activity_mostrar_lista">MostrarLista</string>
+    <string name="buttonNext">Siguiente</string>
+    <string name="buttonBack">Anterior</string>
+    <string name="a">a)</string>
+    <string name="b">b)</string>
+    <string name="c">c)</string>
+    <string name="d">d)</string>
+    <string name="title_activity_pantallazo">Android Quiz</string>
+    <string name="title_activity_mostrar_menu">MostrarMenu</string>
+    <string name="title_activity_mostrar_estadistica">MostrarEstadistica</string>
+    <string name="Tit_estadistica">ESTADÍSTICA</string>
+    <string name="Num_estadistica">Porcentaje</string>
+    <string name="button_volver_estadistica">Volver Android Quiz</string>
+    <string name="button_borrar_estadistica">Borrar Progreso</string>
+
+</resources>

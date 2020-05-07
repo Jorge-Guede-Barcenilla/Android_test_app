@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/android"
+    android:scaleType="fitXY"
+    tools:context="com.example.manu.test_v2.MainActivity">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:text="@string/titulo"
+        android:textColor="#9933CC"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:text="@string/subtitulo"
+        android:textColor="#9933CC"
+        android:textSize="18sp"
+        android:typeface="serif"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="125dp"
+        android:onClick="inicioTest"
+        android:text="@string/cuadro_texto1"
+        android:textColor="#0099CC"
+        android:textStyle="italic"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="abrirNavegador"
+        android:text="@string/cuadro_texto2"
+        android:textColor="#0099CC"
+        android:textStyle="italic"
+        android:typeface="serif" />
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="abrirEstadisticas"
+        android:text="@string/cuadro_texto3"
+        android:textColor="#0099CC"
+        android:textStyle="italic"
+        android:typeface="serif" />
+
+</LinearLayout>

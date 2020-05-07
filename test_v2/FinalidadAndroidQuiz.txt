@@ -1,0 +1,18 @@
+Android Quiz
+
+Esta aplicación consiste en realizar un sencillo test de 10 preguntas sobre conocimientos de Programación en Android.
+La aplicación consta de 5 actividades:
+Una screen-shot inicial con un título y los nombres de los miembros del grupo.
+Una pantalla inicial con 3 botones: acceso al test, acceso a estadísticas y acceso a una referencia de internet para aprender más.
+La pantalla que consideramos como principal de la aplicación que no es a la que llamamos ActivityMain es la pantalla denominada 
+MostrarTest.java con su layout activity_mostrar_test.xml en la cual se muestra aleatoriamente una lista de 10 preguntas de entre las 
+58 que forman la base de datos se puede volver hacia atrás en las preguntas una vez dentro de la actividad. Si volvemos a la actividad 
+inicial y presinamos nuevamente inicio volvemos al test pero se genera una lista de preguntas diferente.
+La cuarta actividad muestra un desglose con las preguntas y las respuestas seleccionadas, además de un símbolo de correcto o incorrecto 
+según sea el caso, tiene un botón que permite volver a la pantalla inicial.
+La quinta y última actividad es una pantalla de estadísticas que muestra el número de aciertos y de fallos totales además del porcentaje 
+de preguntas acertadas en relación a las 58 preguntas que forman la base de datos. El objetivo del juego es lograr que ese porcentaje 
+alcance el 100%, es decir, haber acertado al menos una vez todas y cada una de las preguntas. Esta pantalla permite volver a la pantalla 
+de inicio así como reiniciar sus datos a 0 para aquel que quiera volver a empezar.
+
+ 

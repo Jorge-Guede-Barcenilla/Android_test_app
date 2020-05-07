@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="90dp"
+        >
+
+        <RadioButton
+
+            android:id="@+id/radioButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="#9933CC"
+            android:textStyle="bold"
+            android:typeface="serif"
+             />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="#9933CC"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:layout_marginTop="30dp"
+            />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="#9933CC"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:layout_marginTop="30dp"
+             />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="#9933CC"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:layout_marginTop="30dp"
+             />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="8dp"
+        android:textColor="#9933CC"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:text="@string/a"
+        android:layout_alignTop="@+id/radioGroup1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="70dp"
+        android:textColor="#9933CC"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:text="@string/b"
+        android:layout_alignTop="@+id/radioGroup1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="132dp"
+        android:textColor="#9933CC"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:text="@string/c"
+        android:layout_alignTop="@+id/radioGroup1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="194dp"
+        android:textColor="#9933CC"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:text="@string/d"
+        android:layout_alignTop="@+id/radioGroup1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <Button
+        android:id="@+id/buttonNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="180dp"
+        android:textColor="#0099CC"
+        android:textStyle="italic"
+        android:typeface="serif"
+        android:onClick="cambiarPregunta"
+        android:layout_below="@+id/radioGroup1"
+        android:text="@string/buttonNext"/>
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="86dp"
+        android:textColor="#0099CC"
+        android:textStyle="italic"
+        android:typeface="serif"
+        android:onClick="anteriorPregunta"
+        android:layout_below="@+id/radioGroup1"
+        android:text="@string/buttonBack"/>
+
+    <TextView
+        android:id="@+id/TextCont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="295dp"
+        android:layout_marginTop="42dp"
+        android:textSize="20sp"
+        android:textColor="#9933CC"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:layout_below="@+id/radioGroup1" />
+
+</RelativeLayout>
